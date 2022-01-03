@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data Driven Basics">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+		<listener class-name="com.w2a.listeners.CustomListeners"/>
+	</listeners>
+
+<!--	<test name="Bank Manager Login Test">-->
+<!--		<classes>-->
+<!--			<class name="com.w2a.testcases.BankManagerLoginTest"></class>-->
+<!--		</classes>-->
+<!--	</test>-->
+
+<!--	<test name="Add Customer Test">-->
+<!--		<classes>-->
+<!--			<class name="com.w2a.testcases.AddCustomerTest"></class>-->
+<!--		</classes>-->
+<!--	</test>-->
+
+	<test name="Unit Test Cases">
+		<classes>
+			<class name="com.w2a.testcases.AllUnitTestCases"></class>
+<!--			<class name="com.w2a.testcases.AddCollectionTestCases"></class>-->
+		</classes>
+	</test>
+    
+    
+<!--	<test name="Bank Manager Login Test">-->
+<!--		<classes>-->
+<!--			<class name="com.w2a.testcases.BankManagerLoginTest" />-->
+<!--		</classes>-->
+<!--	</test> &lt;!&ndash; Test &ndash;&gt;-->
+
+<!--	<test name="Add Customer Test">-->
+<!--		<classes>-->
+<!--			<class name="com.w2a.testcases.AddCustomerTest" />-->
+<!--		</classes>-->
+<!--	</test> &lt;!&ndash; Test &ndash;&gt;-->
+	
+	
+<!--	<test name="Add Customer Test">-->
+<!--		<classes>-->
+<!--			<class name="com.w2a.testcases.AddCustomerTest" />-->
+<!--		</classes>-->
+<!--	</test> &lt;!&ndash; Test &ndash;&gt;-->
+<!--	-->
+<!--		<test name="Open Account Test">-->
+<!--		<classes>-->
+<!--			<class name="com.w2a.testcases.OpenAccountTest" />-->
+<!--		</classes>-->
+<!--	</test> &lt;!&ndash; Test &ndash;&gt;-->
+	
+</suite> <!-- Suite -->

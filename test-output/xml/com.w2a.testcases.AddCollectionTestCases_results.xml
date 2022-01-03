@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Unit Test Cases"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="15.949">
+  <properties />
+  
+  
+            <testcase name="addCollectionWithoutSelectVertical" time="3.333" classname="com.w2a.testcases.AddCollectionTestCases" />
+                <testcase name="addCollectionWithoutVerticalAndTypeField" time="3.544" classname="com.w2a.testcases.AddCollectionTestCases" />
+                <testcase name="addCollectionWithoutSelectType" time="3.657" classname="com.w2a.testcases.AddCollectionTestCases" />
+                <testcase name="clickingOnBackButton" time="5.415" classname="com.w2a.testcases.AddCollectionTestCases" />
+      
+</testsuite>
